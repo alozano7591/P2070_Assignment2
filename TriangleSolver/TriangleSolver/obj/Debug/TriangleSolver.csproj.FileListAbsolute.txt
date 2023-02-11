@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.dll
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.pdb
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
+D:\Conestoga\CPA\Semester 4\PROG2070-Quality\A2\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.dll
+D:\Conestoga\CPA\Semester 4\PROG2070-Quality\A2\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.pdb
+D:\Conestoga\CPA\Semester 4\PROG2070-Quality\A2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.AssemblyReference.cache
+D:\Conestoga\CPA\Semester 4\PROG2070-Quality\A2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
+D:\Conestoga\CPA\Semester 4\PROG2070-Quality\A2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
+D:\Conestoga\CPA\Semester 4\PROG2070-Quality\A2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
