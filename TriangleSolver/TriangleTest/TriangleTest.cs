@@ -61,7 +61,7 @@ namespace TriangleTest
 
         // Three (3) tests for a valid isosceles triangle
         /// <summary>
-        /// Tests for Isosceles. Checks if properly validates that sides 1 and 2 are the same length, but not side 3.
+        /// Tests for Isosceles. Checks if properly validates that sides 1 and 3 are the same length, but not side 3.
         /// </summary>
         [Test]
         public void TriangleSolver_IsoscelesSide1and3_Valid()
@@ -84,7 +84,7 @@ namespace TriangleTest
 
         // Three (3) tests for a valid isosceles triangle
         /// <summary>
-        /// Tests for Isosceles. Checks if properly validates that sides 1 and 2 are the same length, but not side 3.
+        /// Tests for Isosceles. Checks if properly validates that sides 3 and 2 are the same length, but not side 3.
         /// </summary>
         [Test]
         public void TriangleSolver_IsoscelesSide3and2_Valid()
@@ -101,6 +101,121 @@ namespace TriangleTest
             actualMessage = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
             string expectedOutput = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+
+            Assert.AreEqual(expectedOutput, actualMessage);
+        }
+
+        //  Five (5) tests for a valid scalene triangle
+        /// <summary>
+        /// Tests for Isosceles. Checks if properly validates that sides 3 and 2 are the same length, but not side 3.
+        /// </summary>
+        [Test]
+        public void TriangleSolver_ScaleneOne_Valid()
+        {
+
+            Triangle triangle = new Triangle();
+
+            int firstSide = 5;
+            int secondSide = 3;
+            int thirdSide = 6;
+
+            string actualMessage = "";
+
+            actualMessage = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            string expectedOutput = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            Assert.AreEqual(expectedOutput, actualMessage);
+        }
+
+        //  Five (5) tests for a valid scalene triangle
+        /// <summary>
+        /// Tests for Isosceles. Checks if properly validates that sides 3 and 2 are the same length, but not side 3.
+        /// </summary>
+        [Test]
+        public void TriangleSolver_ScaleneTwo_Valid()
+        {
+
+            Triangle triangle = new Triangle();
+
+            int firstSide = 5;
+            int secondSide = 6;
+            int thirdSide = 3;
+
+            string actualMessage = "";
+
+            actualMessage = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            string expectedOutput = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            Assert.AreEqual(expectedOutput, actualMessage);
+        }
+
+        //  Five (5) tests for a valid scalene triangle
+        /// <summary>
+        /// Tests for Isosceles. Checks if properly validates that sides 3 and 2 are the same length, but not side 3.
+        /// </summary>
+        [Test]
+        public void TriangleSolver_ScaleneThree_Valid()
+        {
+
+            Triangle triangle = new Triangle();
+
+            int firstSide = 6;
+            int secondSide = 3;
+            int thirdSide = 5;
+
+            string actualMessage = "";
+
+            actualMessage = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            string expectedOutput = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            Assert.AreEqual(expectedOutput, actualMessage);
+        }
+
+        //  Five (5) tests for a valid scalene triangle
+        /// <summary>
+        /// Tests for Isosceles. Checks if properly validates that sides 3 and 2 are the same length, but not side 3.
+        /// </summary>
+        [Test]
+        public void TriangleSolver_ScaleneFour_Valid()
+        {
+
+            Triangle triangle = new Triangle();
+
+            int firstSide = 6;
+            int secondSide = 5;
+            int thirdSide = 3;
+
+            string actualMessage = "";
+
+            actualMessage = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            string expectedOutput = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            Assert.AreEqual(expectedOutput, actualMessage);
+        }
+
+        //  Five (5) tests for a valid scalene triangle
+        /// <summary>
+        /// Tests for Isosceles. Checks if properly validates that sides 3 and 2 are the same length, but not side 3.
+        /// </summary>
+        [Test]
+        public void TriangleSolver_ScaleneFive_Valid()
+        {
+
+            Triangle triangle = new Triangle();
+
+            int firstSide = 3;
+            int secondSide = 6;
+            int thirdSide = 5;
+
+            string actualMessage = "";
+
+            actualMessage = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            string expectedOutput = "Based on all three sides being different, the type of triangle is a SCALENE";
 
             Assert.AreEqual(expectedOutput, actualMessage);
         }
