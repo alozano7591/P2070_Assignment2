@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* Alfredo Lozano
+ * Prog2070 - Assignment 2
+ * Unit test for Triangle Solver
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
